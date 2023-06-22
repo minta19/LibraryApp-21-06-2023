@@ -1,0 +1,34 @@
+Assignment - Django Models
+1. Update previously create app with models.
+2. Book model with the following fields:
+1. Title
+2. Author
+3. Publication Date
+4. Created Date
+5. Is Available
+6. Price
+7. Description
+8. Book Code
+9. Category
+10. Genre
+11. Rating
+3. Author Model with the followign fields:
+1. Name
+2. Birthdate
+3. Email
+4. Category and Genre models with 'name' field
+
+5. Update the Book Detail, Book List, Author List view to return objects from DB instead of .json
+
+6. Create view to create book (function based) and author (class based)
+
+7. Create view to update book (fbv or cbv)
+
+8. Generate django orm query for the following:
+1. Find Books which are available
+2. Find books whose title has 'The Great'
+3. Find books with rating >= 4
+4. Find books published in the year 2002
+5. Query all Genres of a Book
+6. Query All books of a given Genre
+7. Query all books by a given Author

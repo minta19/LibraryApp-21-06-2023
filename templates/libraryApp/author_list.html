@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} BOOK AUTHOR  LIST {% endblock title %}
+{% block content %}
+    <h1><center>AUTHORS</center></h1>
+    <ul>
+        {% for book in allbook %}
+            <li>NAME: {{ book.author.Name }}<br> 
+               EMAIL-ID: {{ book.author.email }} <br>
+               TITLE OF THE BOOK: {{ book.Title}} <br> </li>
+        {% endfor %}
+    </ul>
+        
+{% endblock content %}
